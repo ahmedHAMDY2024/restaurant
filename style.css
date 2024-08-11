@@ -1,0 +1,171 @@
+body{
+    background-image: url(food.jpg);
+    background-attachment: fixed;
+}
+header{
+    width: 100%;
+    background-color:black;
+    opacity: 0.7;
+    position: fixed;
+    z-index: 1;
+}
+.img_1{
+    margin-left: 20px;
+    width: 100px;
+}
+.span_1{
+    margin-bottom: 10px;
+    margin-left: 500px;
+}
+.a{
+    
+    margin-left: 50px;
+    text-decoration:none ;
+    font-size: 30px;
+    color: aliceblue;
+
+}
+.a:hover{
+    background-color: rgb(72, 72, 72);
+    color: #000000;
+}
+section{
+
+    position: relative;
+    height: 700px;
+    background-image: url(shutterstock_277750193\(1\).jpg);
+    background-repeat:round;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.img_2{
+    margin-top: 100px;
+    
+
+}
+ .span_2{
+    background-color: blue;
+}
+.b_1{
+    font-size: 40px;
+    padding: 5px;
+    border-width: 5px;
+    border-radius: 20px;
+    background-color: rgb(234, 190, 136);
+    transition: all 1s;
+}
+.b_1:hover{
+    background-color: black;
+    color: rgb(234, 190, 136);
+    transform: scale(2);
+}
+.b_2{
+    font-size: 40px;
+    padding: 5px;
+    border-width: 5px;
+    border-radius: 20px;
+    transition: all 1s;
+
+}
+
+.b_2:hover{
+    background-color: black;
+    color: aliceblue;
+    transform: scale(2);
+}
+.div_1{
+    width: 100%;
+    height: 700px;
+}
+.div_2{
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.img_3{
+    width: 100%;
+    height: 100%;
+}
+.img_3:hover{
+    transition: 5s;
+    transform: scale( 1.5);
+    border: ridge 20px crimson;
+    border-radius: 800px;
+    
+
+}
+
+.div_3{
+    background-color: white;
+    width: 60%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+.p_1{
+    margin-bottom: 40px;
+    font-size: 30px;
+    flex-direction: column-reverse;
+}
+.h2_1{
+    font-size: 50px; ;
+    background-color: rgb(232, 232, 232);
+
+}
+.p_2{
+    font-size: 30px;
+    font-style: oblique;
+}
+.b_3{
+    
+    width: 150px;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 20px;
+    background-color: bisque;
+
+}
+.b_3:hover{
+    transition: 1s;
+    background-color: rgb(0, 0, 0);
+    color: bisque;
+    transform: rotate(360deg);
+    
+}
+fieldset{
+    background-color: #ffffff;
+    border: 10px rgb(255, 255, 255) solid;
+    height: 300px;
+    
+}
+fieldset:hover{
+    visibility: hidden;
+}
+.div_4{
+    width: 100%;
+    background-color: white;
+}
+.div_5{
+    width: 25%;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
+.img_4{
+    border-color: black;
+    margin-top: 30px;
+    border-radius: 100px;
+}
+.img_4:hover{
+    transition: 5s;
+    transform: rotate(3600deg);
+    transform-origin: bottom;
+}
+.p_3{
+    text-decoration: rgb(255, 0, 0) underline wavy;
+}
